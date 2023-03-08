@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Rubik:wght@300&display=swap');
+
+html, body {
+    scroll-behavior:smooth;
+}
+header {
+    padding-bottom: 40px;
+}
+body{
+    background-color:black;
+    background-image: url(forest4.jpg);
+    background-size:100%;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    /* border: solid 5px rgb(191, 28, 36); */
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+    color: rgb(4, 255, 0);
+    text-shadow: 2px 2px white;
+}
+h2 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.text {
+    color: rgb(255, 255, 255);
+    position:relative;
+    background: rgba(0, 0, 0, 0.324);
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 35%;
+    text-align: center;
+    border: solid 2px lightblue;
+    padding: 40px;
+}
+
+.center-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+    margin-bottom: 100px;
+    width: 35%;
+    text-align: center;
+    border: solid 2px lightblue;
+    padding: 40px;
+}
+
+
+
+iframe {
+    border: solid 2px lightblue;
+    padding: 0px;
+    /* text-align: center; */
+
+}
+
+
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: x-large;
+}
+
+
+.hand {
+    color: rgb(4, 255, 0);
+    text-shadow: 2px 2px white;
+    font-family: 'Gochi Hand', cursive;
+    font-size: xx-large;
+    position:relative
+    
+}
+
+
+
+.transparent {
+    color: rgb(255, 255, 255);
+    position:relative;
+    background: rgba(0, 0, 0, 0.717);
+    
+
+}
+/* 
+.columnl {
+    width:300px;
+    float:left;
+    padding: 5%;
+    display: flex;
+
+}
+
+.container {
+    column-width: 10em;
+    column-rule: 1px solid rgb(75, 70, 74);
+}
+
+
+.columnr {
+    width:300px;
+    float:right;
+    padding: 5%;
+    display: flex;
+} */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.imgcenter {
+    display: flex;
+    justify-content: center;
+}
+
+.back-to-top {
+    color:rgb(4, 255, 0);
+    font-size: 20px;
+}
+
+.footer {
+    /* animation: changecolour 11s infinite; */
+    height: max-content;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* border: solid 5px rgb(66, 28, 191) */
+}
+
+.footer p {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(4, 255, 0);
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    display: none;
+}
+
+#myBtn:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(4, 255, 0);
+    transition: all 2s
+}
+
+#dragonBtn {
+    border: none; 
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: red;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+a {
+    position:-webkit-sticky;
+    bottom: 70px;
+    left: 30px;
+    font-size: 30px;
+    color: rgb(4, 255, 0);
+}
